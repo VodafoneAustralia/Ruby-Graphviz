@@ -239,6 +239,7 @@ class GraphViz
       "quantum"             => { :usedBy => "G",    :type => :GvDouble },
       "rank"                => { :usedBy => "S",    :type => :EscString }, # rankType
       "rankdir"             => { :usedBy => "G",    :type => :EscString }, # rankDir
+      "newrank"             => { :usedBy => "G",    :type => :EscString },
       "ranksep"             => { :usedBy => "G",    :type => :EscString }, # GvDouble, doubleList
       "ratio"               => { :usedBy => "G",    :type => :EscString }, # GvDouble, String
       "rects"               => { :usedBy => "N",    :type => :Rect }, # rect
